@@ -242,7 +242,22 @@ a {
 .section-heading {
    max-width: 1100px;
    margin: 0 auto 54px
+   
 }
+.section-heading {
+   text-align: left; /* セクション全体を左揃えに */
+}
+
+.section-heading p.section-index {
+   display: block; /* 必要に応じてブロック要素に変更 */
+   text-align: left; /* 左揃え */
+}
+
+.section-heading p.section-index + span {
+   display: block; /* テキストを改行して左揃えに */
+   text-align: left;
+}
+
 
 .section-index {
    font: 700 11px Outfit, sans-serif;
@@ -258,7 +273,12 @@ a {
    margin: 0;
    font-weight: 900
 }
-
+.small-heading {
+   font-size: clamp(16px, 2.5vw, 28px); /* 必要に応じてサイズを調整 */
+   line-height: 1.2;
+   letter-spacing: -.04em;
+   font-weight: 900;
+}
 .section-intro {
    color: var(--muted);
    font-size: 13px;
