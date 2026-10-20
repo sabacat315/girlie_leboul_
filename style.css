@@ -86,8 +86,8 @@ a {
 .brand img {
    width: 100%;
    height: 100%;
-   object-fit: cover;
-   object-position: center
+   object-fit: contain;
+   object-position: left;
 }
 
 .header-note {
@@ -164,7 +164,7 @@ a {
 }
 
 .hero h1 {
-   font: 900 clamp(60px, 12vw, 150px)/.82 Outfit, sans-serif;
+   font: 900 clamp(60px, 12vw, 150px)/.82 helvetica-neue-lt-pro, sans-serif;
    letter-spacing: -.075em;
    margin: 0;
    text-transform: lowercase
@@ -266,7 +266,7 @@ a {
    margin: 0 0 14px
 }
 
-.section-heading h2 {
+.catchphrase{
    font-size: clamp(31px, 5vw, 60px);
    line-height: 1.2;
    letter-spacing: -.04em;
@@ -421,12 +421,12 @@ a {
    background: #fff
 }
 
-.work-heading {
+/* .work-heading {
    display: grid;
    grid-template-columns: 1fr auto;
    align-items: end;
    column-gap: 24px
-}
+} */
 
 .work-heading .section-index,
 .work-heading h2,
@@ -578,8 +578,8 @@ a {
    }
 
    .brand {
-      width: 86px;
-      height: 48px
+      width: 40px;
+      height: 10px
    }
 
    .header-note {
