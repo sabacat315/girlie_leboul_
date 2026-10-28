@@ -99,6 +99,13 @@ img {
    position: absolute;
    inset: 0
 }
+.catchphrase{
+   font-size: clamp(31px, 5vw, 60px);
+   line-height: 1.2;
+   letter-spacing: -.04em;
+   margin: 0;
+   font-weight: 900
+}
 
 .detail-visual img {
    transition: transform .6s

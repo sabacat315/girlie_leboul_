@@ -27,11 +27,11 @@ body {
    margin: 0;
    background: var(--paper);
    color: var(--ink);
-   font-family: helvetica-neue-lt-pro, sans-serif;
+   font-family:  Helvetica Neue, sans-serif;
    line-height: 1.75
 }
 
-img {font-family: helvetica-neue-lt-pro, sans-serif;
+img {font-family:  Helvetica Neue, sans-serif;
    font-weight: 400;
    font-style: normal;
    display: block;
@@ -164,7 +164,7 @@ a {
 }
 
 .hero h1 {
-   font: 900 clamp(60px, 12vw, 150px)/.82 helvetica-neue-lt-pro, sans-serif;
+   font: 900 clamp(60px, 12vw, 150px)/.82  Helvetica Neue, sans-serif;
    letter-spacing: -.075em;
    margin: 0;
    text-transform: lowercase
@@ -234,7 +234,15 @@ a {
       transform: translateY(-12px) rotate(8deg)
    }
 }
-
+.title{
+   font-family: impact, sans-serif;
+   font-size: clamp(80px, 10vw, 150px); 
+   line-height: 1.2;
+   margin: 0;
+   font-weight: 900;
+   letter-spacing: 0.03em;
+   font-style: normal;
+}
 .section {
    padding: clamp(72px, 10vw, 140px) clamp(22px, 8vw, 120px)
 }
@@ -273,6 +281,7 @@ a {
    margin: 0;
    font-weight: 900
 }
+
 .small-heading {
    font-size: clamp(16px, 2.5vw, 28px); /* 必要に応じてサイズを調整 */
    line-height: 1.2;
@@ -530,7 +539,6 @@ a {
    color: var(--pink);
    margin-right: 8px
 }
-
 .site-footer {
    background: #302a2d;
    color: white;
